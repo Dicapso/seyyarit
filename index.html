@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Səyyar IT Xidmətləri — Proqram təminatı, təhlükəsizlik və şəbəkə həlləri</title>
+<meta name="description" content="Windows 10/11 yazılması və lisenziyalanması, Adobe, Corel, Autodesk, MS Office proqramları, təhlükəsizlik kameraları, turniket, şlaqbaum, şəbəkə və zəif axın sistemləri. Yerində səyyar xidmət.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="wrap nav-in">
+    <a href="#top" class="logo">
+      <span class="logo-mark">S</span>
+      <span>Səyyar<b>IT</b><small>Xidmətləri</small></span>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="#xidmetler">Xidmətlər</a>
+      <a href="#mehsullar">Məhsullar</a>
+      <a href="#nece">Necə işləyirik</a>
+      <a href="#elaqe">Əlaqə</a>
+    </nav>
+    <a href="#elaqe" class="btn btn-sm nav-cta">Sifariş et</a>
+    <button class="burger" id="burger" aria-label="Menyu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div>
+        <span class="pill">🚗 Ünvanınıza gəlirik — Bakı və rayonlar</span>
+        <h1>Kompüterdən təhlükəsizliyə qədər — <em>bütün IT işləri</em> bir ünvanda</h1>
+        <p class="lead">Windows və lisenziyalı proqramların yazılması, kamera və turniket sistemləri, şəbəkə və zəif axın quraşdırılması. Usta ofisinizə, evinizə və ya obyektinizə gəlir.</p>
+        <div class="hero-btns">
+          <a href="#xidmetler" class="btn">Xidmətlərə bax</a>
+          <a href="#mehsullar" class="btn btn-ghost">Məhsullar</a>
+        </div>
+        <ul class="stats">
+          <li><b id="statCats">9</b><span>xidmət istiqaməti</span></li>
+          <li><b id="statSvcs">70+</b><span>xidmət növü</span></li>
+          <li><b>24/7</b><span>sorğu qəbulu</span></li>
+        </ul>
+      </div>
+      <div class="hero-card">
+        <div class="hc-head"><b>🔥 Populyar xidmətlər</b><a href="#xidmetler">Hamısı →</a></div>
+        <div id="popular"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="xidmetler" class="section">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Xidmətlər</span>
+        <h2>Kateqoriyalar üzrə xidmətlərimiz</h2>
+        <p>İstiqaməti seçin — hər kateqoriyada konkret xidmətləri görəcəksiniz.</p>
+      </div>
+      <div class="tabs" id="svcTabs" role="tablist"></div>
+      <div class="svc-grid" id="svcGrid"></div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="mehsullar" class="section alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Mağaza</span>
+        <h2>Satışda olan məhsullar</h2>
+        <p>Avadanlıq və lisenziyalar. Quraşdırma ilə birlikdə sifariş verə bilərsiniz.</p>
+      </div>
+      <div class="shop-bar">
+        <div class="chips" id="prodChips"></div>
+        <input type="search" id="prodSearch" placeholder="Məhsul axtar…" aria-label="Məhsul axtar">
+      </div>
+      <div class="prod-grid" id="prodGrid"></div>
+      <p class="empty" id="prodEmpty" hidden>Uyğun məhsul tapılmadı.</p>
+    </div>
+  </section>
+
+  <!-- HOW -->
+  <section id="nece" class="section">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Proses</span>
+        <h2>Necə işləyirik</h2>
+      </div>
+      <ol class="steps">
+        <li><b>1</b><h3>Sorğu</h3><p>Zəng edin, WhatsApp yazın və ya formu doldurun.</p></li>
+        <li><b>2</b><h3>Baxış və qiymət</h3><p>Ehtiyacı dəqiqləşdirir, şəffaf qiymət təklif edirik.</p></li>
+        <li><b>3</b><h3>Yerində icra</h3><p>Usta ünvana gəlir, quraşdırma və yazılmanı edir.</p></li>
+        <li><b>4</b><h3>Servis</h3><p>Zəmanət və sonrakı texniki dəstək.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="elaqe" class="section alt">
+    <div class="wrap contact">
+      <div>
+        <span class="eyebrow">Əlaqə</span>
+        <h2>Sifariş və ya sual?</h2>
+        <p>Formu doldurun — mesaj birbaşa WhatsApp-a hazır gələcək.</p>
+        <ul class="contact-list">
+          <li>📞 <a href="tel:+994000000000" class="js-phone">+994 00 000 00 00</a></li>
+          <li>💬 <a href="#" class="js-wa" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li>✉️ <a href="mailto:info@seyyarit.az">info@seyyarit.az</a></li>
+          <li>🕘 Hər gün 09:00 – 21:00</li>
+        </ul>
+      </div>
+      <form class="form" id="orderForm">
+        <label>Adınız<input name="ad" required placeholder="Məs: Elvin Həsənov"></label>
+        <label>Telefon<input name="tel" type="tel" required placeholder="+994 __ ___ __ __"></label>
+        <label>Xidmət / məhsul
+          <select name="xidmet" id="formService"></select>
+        </label>
+        <label>Ünvan<input name="unvan" placeholder="Şəhər, rayon"></label>
+        <label class="full">Qeyd<textarea name="qeyd" rows="3" placeholder="Qısa təsvir…"></textarea></label>
+        <button class="btn full" type="submit">WhatsApp ilə göndər</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>© <span id="yr"></span> Səyyar IT Xidmətləri</span>
+    <span>Bütün proqramlar orijinal lisenziya ilə</span>
+  </div>
+</footer>
+
+<a class="wa-float js-wa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
